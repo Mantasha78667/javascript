@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+    <h2>Data Structure & Array</h2>
+
+    <h3>Tinu's Biographical Details</h3>
+
+    <p id ="demo"></p>
+
+    <p id ="demo1"></p>
+
+    <script>
+
+        var information = ["Tinu", "9", "Karachi, Pakistan", "Pakistani", "bracelet making"];
+
+        document.getElementById(demo).innerHTML = information
+
+        <h2>Tinu's Favorite Colour's List</h2>
+
+        var colours = ["Black", "White", "Blue", "Green", "Purple"]
+
+        document.getElementById(demo1).innerHTML = colours
+
