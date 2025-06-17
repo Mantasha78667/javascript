@@ -26,7 +26,9 @@
       document.write("Cos 45 is : " + value +"<br>");
       var value = Math.tan(45);
       document.write("Tan 45 is : " + value +"<br>");
+      </script>
 
-    </body>
-    </html>
+      </body>
+
+      </html>
       
