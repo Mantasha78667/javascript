@@ -25,3 +25,9 @@
         document.write("My favorite color is : " + color[3]);
         color.pop();
         document.write(After Poping the colors are : " + color.join("*"));
+
+        </script>
+
+        </body>
+
+        </html>
