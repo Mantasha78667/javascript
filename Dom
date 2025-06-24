@@ -1,0 +1,21 @@
+<DOCTYPE html>
+
+    <html>
+
+        <head>
+
+            <title>DOM: Document Object Model</title>
+        </head>
+        <body>
+
+            name : <p id="demo1">mannat</p>
+            <script>
+                // console.log("Hello World")
+                // document.write("hi, this is Mantasha")
+
+                var name = prompt("Enter your name :")
+
+                document.getElementById("demo1").innerHTML = name
+            </script>
+        </body>
+    </html>
