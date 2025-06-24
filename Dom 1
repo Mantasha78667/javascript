@@ -1,0 +1,52 @@
+<DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>DOM: Document Object Model</title>
+
+<style>
+
+.task-app{
+
+width: 300px;
+
+background-color: #f0f0f0;
+
+text-align: center;
+
+margin: 0px auto;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="task-app">
+
+<h1>Task App</h1>
+
+<div id="taskPanel">
+
+<h4>1. Gym</h4>
+
+<h4>2. Study</h4>
+
+
+</div>
+
+
+</div>
+
+<script>
+
+
+</script>
+
+</body>
+
+</html>
