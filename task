@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>DOM: Document Object Model</title>
+
+<style>
+
+.task-app{
+
+width: 300px;
+
+background-color: #f0f0f0;
+
+text-align: center;
+
+margin: 0px auto;
+
+}
+
+h4{
+
+border: 1px solid #000;
+
+padding: 10px;
+
+margin: 10px;
+
+background-color: #5c3c73;
+
+color: #fff;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+
+<div class="task-app">
+
+
+<h1>Task App</h1>
+
+<button onclick="addTask()">Add Task</button>
+
+<div id="taskPanel">
+
+<h4>1. Gym</h4>
+
+<h4>2. Study</h4>
+
+
+</div>
+
+
+</div>
+
+
+<script>
+
+function addTask(){
+
+var taskName = prompt("Enter Task Name");
+
+var newTask = document.createElement("h4");
+
+newTask.innerHTML = taskName;
+
+document.getElementById("taskPanel").appendChild(newTask);
+
+}
+
+
+</script>
+
+</body>
+
+</html>
