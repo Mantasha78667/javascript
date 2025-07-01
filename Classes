@@ -1,0 +1,15 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>Classes and Objects in js</title>
+        </head>
+        <script>
+
+            class human{
+          }
+          var akash = new human()
+          var farhan = new human()
+          var iraj = new human()
+          var anna = new human()
+          </script>
+    </html>
