@@ -1,0 +1,35 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>Classes and Objects in js</title>
+        </head>
+        <body>
+        <script>
+
+            class human{
+
+                constructor(ageValue, heightValue, weightValue, countryValue) {
+                    this.age = agevalue;
+                    this.age = heightvalue;
+                    this.age = weightvalue;
+                    this.age = countryvalue;
+                    document.write("human is created <br>")
+                }
+
+                sleep(){
+                    document.write("Human is sleeping","<br>")
+                }
+                eat(){
+                    document.write("Human is eating","<br>")
+                }
+                learn(){
+                    document.write("Human is learning","<br>")
+                }
+          }
+          var akash = new human()
+          var farhan = new human()
+          var iraj = new human()
+          var anna = new human()
+          </script>
+        </body>
+    </html>
