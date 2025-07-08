@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello, World</title>
+    </head>
+    <body>
+        <script>
+        function f1(){
+            document.write("hello <br>")
+        }
+        var x = function (a,b){
+            document.write("anonymous function <br>",(a+b))
+        }
+        x(10,20)
+        var y = (a,b)=>document.write("arrow function <br>",(a*b))
+        y(100,200)
+        
+            </script>
+    </body>
+</html>
