@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+    <script>
+        function sum(a,b){
+            return a+b
+        }
+        function sub(a,b){
+            return a-b
+        }
+        function mul(a,b){
+            return a*b
+        }
+        function div(a,b){
+            return a/b
+        }
+        function calculate(a,b,callback){
+            var result = callback(a,b)
+            document.write("result is"+result)
+        }
+        calculate(10,20,sum)
+        calculate(10,20,sub)
+        calculate(10,20,mul)
+        calculate(10,20,div)
+        </script>
+</body>
+</html>
