@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello, World</title>
+    </head>
+    <body>
+        <script>
+            var x = 10
+            var y = 10.2
+            var z = "shresht, farhan"
+            var z1 = true
+
+            document.write("value of x is ",x,"<br>")
+            document.write("type of x is ",typeof x,"<br>")
+
+            var x1 = String(x);
+            document.write("value of x1 is ",x1,"<br>")
+            document.write("type of x1 is ",typeof x1,"<br>")
+
+            var y1 = Number(prompt("Enter a number: "))
+            document.write("value of y1 is ",y1,"<br>")
+            document.write("type of x1 is ",typeof y1,"<br>")
+            </script>
+    </body>
+</html>
